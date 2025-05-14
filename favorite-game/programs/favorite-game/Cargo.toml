@@ -1,0 +1,28 @@
+[package]
+name = "favorite-game"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "favorite_game"
+proc-macro2 = true
+
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+
+[dependencies]
+anchor-lang = {version="0.31.1",features=["init-if-needed"]}
+proc-macro2= "1.0.86"
+syn = "2.0.77"
+quote = "1.0.40"
+
+
