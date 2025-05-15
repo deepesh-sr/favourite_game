@@ -1,3 +1,7 @@
 # Basic Projects on SOLANA for practice.
 
-## Depoloyed at DSa9nMm3beVqzErs2cfN3AjcMhgEeU81D9sEikyMfZqP
+## Deployed at 
+DSa9nMm3beVqzErs2cfN3AjcMhgEeU81D9sEikyMfZqP
+
+### Check it out here 
+https://explorer.solana.com/address/DSa9nMm3beVqzErs2cfN3AjcMhgEeU81D9sEikyMfZqP?cluster=devnet
